@@ -1,0 +1,23 @@
+.slick-prev,
+.slick-next {
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  display: block; /* Ensure the arrows are displayed */
+  background: red; /* Ensure the background color is applied */
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+.slick-prev,
+.slick-next {
+  z-index: 1000; /* Higher z-index */
+  position: absolute;
+}
