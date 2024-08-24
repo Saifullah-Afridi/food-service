@@ -5,13 +5,13 @@ import logo from "../assets/logo.png";
 
 const SideBarOfDashboard = () => {
   return (
-    <div className=" w-[100%]   sticky top-0 bg-[#f8da61] h-screen overflow-auto">
+    <div className=" w-[100%] sticky top-0 bg-[#f8da61] h-screen overflow-auto">
       <Sidebar className="w-full">
         <Sidebar.Logo
           as="div"
           img={logo}
           imgAlt="app logo"
-          className="bg-[#f8da61]    h-16 mb-0 border-b-[1px] border-gray-500"
+          className="bg-[#f8da61] h-16 mb-0 border-b-[1px] border-gray-500"
         >
           Bite Base
         </Sidebar.Logo>
